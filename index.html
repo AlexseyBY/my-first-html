@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="mystyle.css">
-
 </head>
 
 <body>
-    <div class="header">
-        <div class="menu">
-            <li>Главная</li>
-            <li>Контакты</li>
-            <li>Галерея</li>
-        </div>
-        <div class="content">
-            <div>
-                <h1 class="content_h1">Ремонт квартир</h1>
-            </div>
-            <div class="content">
-                <h1 class="content_h1">Строительстао</h1>
-            </div>
-            <div class="content">
-                <h1 class="content_h1">Обустройство</h1>
-            </div>
-        </div>
+    <form action="#" method="post" enctype="multipart/form-data"></form>
+
+    <div>
+        <p>Заполни на случай если пива было много;)</p>
+        <input placeholder="Name" tabindex="1" type="text" name="UserName">
+        <input placeholder="Tel" tabindex="2" type="tel" name="Userphone">
     </div>
-    <div class="contentTop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aut dolore fuga
-        similique quia omnis pariatur ipsa, modi sapiente, ad nostrum ea odit accusamus voluptas adipisci! Cum autem
-        beatae saepe unde nam eos sit nobis atque. Exercitationem vero error sunt soluta quaerat, fugiat blanditiis
-        porro magnam beatae voluptates tenetur placeat.</div>
+    <div>
+        <p>Предпочтение службы такси</p>
+        <input tabindex="3" type="checkbox" name="Uber" />Uber
+        <input checked tabindex="4" type="checkbox" name="Yandex" />Yandex
+    </div>
+    <div>
+        <p>Ваш адресс и пожелания</p>
+        <textarea tabindex="5" placeholder="adress" name="adress"></textarea>
+    </div>
+    <div>
+        <button tabindex="6" type="submit">Ввод</button>
+        <button tabindex="7" type="reset">Очистить</button>
+    </div>
+
+
 </body>
 
 </html>
