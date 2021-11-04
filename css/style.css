@@ -39,3 +39,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .form__item {
 	margin: 20px;
 }
+.motolive {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 40px;
+	text-shadow: 2px 2px 5px crimson;
+}
+.nav {
+	border: 1px color red;
+}
+.a {
+	color: #fff;
+	text-decoration: none;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background: #689CD2;
+	color: #fff;
+}
