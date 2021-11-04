@@ -33,10 +33,9 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-.nav {
-	height: 100px;
-	margin-bottom: 25px;
-	display: flex;
-	justify-content: flex-end;
-	background: url(/img/offroad.jpg) 0 0/auto 100% repeat;
+.form {
+	margin-top: 20p;
+}
+.form__item {
+	margin: 20px;
 }
