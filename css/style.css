@@ -39,16 +39,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .form__item {
 	margin: 20px;
 }
+.content {
+	
+}
 .motolive {
 	font-size: 50px;
 	text-align: center;
 	margin-top: 40px;
-	text-shadow: 2px 2px 5px crimson;
+	text-shadow: 2px 2px 5px rgb(220, 20, 60);
 }
-.nav {
-	border: 1px color red;
-}
-.a {
+
+a {
 	color: #fff;
 	text-decoration: none;
 }
@@ -56,6 +57,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
-	background: #689CD2;
+	background: rgb(220, 20, 60);
 	color: #fff;
+}
+.header__section {
+	display: flex;
+	align-items: center;
+}
+.header__item {
+	padding: 10px 15px;
+	font-size: 20px;
+	margin: 5px;
+}
+.header__item:hover {
+	background-color: #ff9900;
+	border-radius: 4px;
+}
+.imglogo {
+	height: 50px;
 }
